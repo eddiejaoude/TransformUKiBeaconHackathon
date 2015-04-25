@@ -8,8 +8,11 @@ TransformUk: http://www.transformuk.com/transform-beacon-sticker-hackathon/
 
 ![Beacon Logo](beacon-logo.png)
 
-# TransformUKiBeaconHackathon
+# TransformUKiBeaconHackathon - Park here
 
+Easily park your car.
+
+---
 
 # Ideas
 
