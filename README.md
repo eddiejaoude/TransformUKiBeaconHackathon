@@ -5,3 +5,30 @@ Chat: [![Join the chat at https://gitter.im/TransformCore/Hackathon2015](https:/
 TransformUk: http://www.transformuk.com/transform-beacon-sticker-hackathon/
 
 # TransformUKiBeaconHackathon
+
+
+# Ideas
+
+### Car park
+
+#### Caveats
+
+* Underground - Internet / Wifi required
+
+#### Features
+
+* Find an empty parking space
+* Locate your car
+* Pay for parking space per minute
+
+### Train usage
+
+#### Features
+
+* Carriage capacity
+
+### Teacher / Children school
+
+#### Features
+
+* 
