@@ -18,6 +18,7 @@ TransformUk: http://www.transformuk.com/transform-beacon-sticker-hackathon/
 #### Features
 
 * Find an empty parking space
+* Give car a specified space
 * Locate your car
 * Pay for parking space per minute
 
