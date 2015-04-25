@@ -4,6 +4,8 @@ Chat: [![Join the chat at https://gitter.im/TransformCore/Hackathon2015](https:/
 
 TransformUk: http://www.transformuk.com/transform-beacon-sticker-hackathon/
 
+![Beacon Logo](beacon-logo.png)
+
 # TransformUKiBeaconHackathon
 
 
