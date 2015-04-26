@@ -70,14 +70,14 @@ class ParkingSpacesController extends FOSRestController
             );
         }
 
-        if (false === $parkingSpace->isAvailable()) {
+        if (0 == $parkingSpace->isAvailable()) {
             return $this->handleView(
                 $this->view(array('message' => 'Parking Space already taken'), 400)
             );
         }
 
         $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(false);
+        $parkingSpace->setAvailable(0);
 
         $this->getDoctrine()
             ->getEntityManager()
@@ -115,7 +115,7 @@ class ParkingSpacesController extends FOSRestController
             );
         }
 
-        if (true === $parkingSpace->isAvailable()) {
+        if (1 == $parkingSpace->isAvailable()) {
             return $this->handleView(
                 $this->view(array('message' => 'Parking Space not used'), 400)
             );
@@ -137,12 +137,15 @@ class ParkingSpacesController extends FOSRestController
         $checkout->setDuration(
             $duration->format('%h hour(s) %i minute(s)')
         );
+        $minutes = (int) $duration->format('%i') == 0 ? 1 : (int) $duration->format('%i');
+        $hours = (int) $duration->format('%h') == 0 ? 1 : (int) $duration->format('%h');
         $checkout->setTotalCost(
-            $checkout->getMinuteCost() * (int) $duration->format('%i')
+            $checkout->getMinuteCost() *
+            ( $minutes  * ($hours * 60) )
         );
 
         $parkingSpace->setCar(null);
-        $parkingSpace->setAvailable(true);
+        $parkingSpace->setAvailable(1);
 
         $this->getDoctrine()
              ->getEntityManager()

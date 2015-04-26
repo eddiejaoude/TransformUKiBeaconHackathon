@@ -34,9 +34,9 @@ class ParkingSpace
     protected $car;
 
     /**
-     * @var bool
+     * @var int
      */
-    protected $available = true;
+    protected $available = 1;
 
     /**
      * @var float
@@ -191,7 +191,7 @@ class ParkingSpace
     }
 
     /**
-     * @return boolean
+     * @return int
      */
     public function isAvailable()
     {
@@ -199,7 +199,7 @@ class ParkingSpace
     }
 
     /**
-     * @param boolean $available
+     * @param int $available
      *
      * @return ParkingSpace
      */

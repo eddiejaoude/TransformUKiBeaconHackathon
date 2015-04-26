@@ -39,13 +39,18 @@ class LoadRoundHouseMappingData implements FixtureInterface
     {
         $car = new Car();
         $car->setUid('pqrstuv');
-        $car->setCreatedOn(new \DateTime());
+        $car->setCreatedOn(
+            (new \DateTime())
+                ->sub(
+                    new \DateInterval("PT7H")
+                )
+        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('2A');
         $parkingSpace->setCarPark('Round House');
         $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(false);
+        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('f9981322a822');
         $parkingSpace->setX(0.163142662696165);
         $parkingSpace->setY(2.41772976230547);
@@ -84,13 +89,18 @@ class LoadRoundHouseMappingData implements FixtureInterface
     {
         $car = new Car();
         $car->setUid('wxyzabc');
-        $car->setCreatedOn(new \DateTime());
+        $car->setCreatedOn(
+            (new \DateTime())
+                ->sub(
+                    new \DateInterval("PT12H")
+                )
+        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setUid('2D');
         $parkingSpace->setCarPark('Round House');
         $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(false);
+        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('ece4f376f9d7');
         $parkingSpace->setX(-0.912536392113686);
         $parkingSpace->setY(-0.993263694012384);

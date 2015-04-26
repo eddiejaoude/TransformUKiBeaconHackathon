@@ -52,13 +52,18 @@ class LoadReadingRoomMappingData implements FixtureInterface
     {
         $car = new Car();
         $car->setUid('abcdefg');
-        $car->setCreatedOn(new \DateTime());
+        $car->setCreatedOn(
+            (new \DateTime())
+                ->sub(
+                    new \DateInterval("PT1H")
+                )
+        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1B');
         $parkingSpace->setCarPark('Reading Room');
         $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(false);
+        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('d62963a73f2f');
         $parkingSpace->setX(-1.30115592843365);
         $parkingSpace->setY(0.1602604064794);
@@ -71,13 +76,18 @@ class LoadReadingRoomMappingData implements FixtureInterface
     {
         $car = new Car();
         $car->setUid('hijklmno');
-        $car->setCreatedOn(new \DateTime());
+        $car->setCreatedOn(
+            (new \DateTime())
+                ->sub(
+                    new \DateInterval("PT4H")
+                )
+        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1C');
         $parkingSpace->setCarPark('Reading Room');
         $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(false);
+        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('df10d71c3772');
         $parkingSpace->setX(-0.698570225339638);
         $parkingSpace->setY(1.77540707972113);

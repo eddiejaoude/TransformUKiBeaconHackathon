@@ -23,7 +23,7 @@ ParkHere\Bundle\AppBundle\Entity\ParkingSpace:
             type: string
             length: 255
         available:
-            type: boolean
+            type: integer
         x:
           type: float
         y:
