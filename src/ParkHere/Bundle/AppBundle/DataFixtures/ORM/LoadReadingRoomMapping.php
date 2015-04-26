@@ -99,7 +99,6 @@ class LoadReadingRoomMappingData implements FixtureInterface
     public function addParkingSpace4()
     {
         $parkingSpace = new ParkingSpace();
-        $parkingSpace->setUid('aaabbb');
         $parkingSpace->setName('1D');
         $parkingSpace->setCarPark('Reading Room');
         $parkingSpace->setUid('c5bbcd393057');
