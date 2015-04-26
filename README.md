@@ -24,6 +24,13 @@ Easily park your car.
    * `f9981322a822` occupied space
    * `d97a7459dd10` empty space
 
+# Deployed Server
+
+`https://transform2015-hackathon.herokuapp.com`
+
+Example...
+`https://transform2015-hackathon.herokuapp.com/api/parkings/d97a7459dd10/spaces`
+
 # Documentation
 
 1. [Get list of Spaces available by Car park](https://github.com/eddiejaoude/TransformUKiBeaconHackathon/issues/2)
