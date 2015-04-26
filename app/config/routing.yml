@@ -1,0 +1,3 @@
+park_here_app:
+    resource: "@ParkHereAppBundle/Resources/config/routing.yml"
+    prefix:   /
