@@ -97,7 +97,7 @@ class LoadRoundHouseMappingData implements FixtureInterface
         );
 
         $parkingSpace = new ParkingSpace();
-        $parkingSpace->setUid('2D');
+        $parkingSpace->setName('2D');
         $parkingSpace->setCarPark('Round House');
         $parkingSpace->setCar($car);
         $parkingSpace->setAvailable(0);
