@@ -1,0 +1,13 @@
+ParkHere\Bundle\AppBundle\Entity\Car:
+    type: entity
+    table: cars
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        uid:
+            type: string
+            length: 255
+        createdOn:
+            type: datetime

@@ -1,0 +1,4 @@
+services:
+#    park_here_app.example:
+#        class: ParkHere\Bundle\AppBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

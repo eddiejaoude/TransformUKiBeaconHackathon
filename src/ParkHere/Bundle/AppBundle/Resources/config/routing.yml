@@ -1,0 +1,8 @@
+park_here_app_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ParkHereAppBundle:Default:index }
+
+parking_spaces:
+    type:     rest
+    prefix:   /api
+    resource: ParkHere\Bundle\AppBundle\Controller\ParkingSpacesController

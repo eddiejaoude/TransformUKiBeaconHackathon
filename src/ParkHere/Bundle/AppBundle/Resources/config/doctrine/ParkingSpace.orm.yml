@@ -1,0 +1,32 @@
+ParkHere\Bundle\AppBundle\Entity\ParkingSpace:
+    type: entity
+    table: parking_spaces
+    oneToOne:
+        car:
+          targetEntity: Car
+          cascade: ["persist"]
+          joinColumn:
+            name: car_id
+            referencedColumnName: id
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        uid:
+            type: string
+            length: 255
+        name:
+            type: string
+            length: 255
+        carPark:
+            type: string
+            length: 255
+        available:
+            type: boolean
+        x:
+          type: float
+        y:
+          type: float
+        orientation:
+          type: float
