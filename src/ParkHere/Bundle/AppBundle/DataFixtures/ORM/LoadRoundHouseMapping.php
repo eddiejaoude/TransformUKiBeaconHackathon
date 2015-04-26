@@ -37,20 +37,20 @@ class LoadRoundHouseMappingData implements FixtureInterface
 
     public function addParkingSpace1()
     {
-        $car = new Car();
-        $car->setUid('pqrstuv');
-        $car->setCreatedOn(
-            (new \DateTime())
-                ->sub(
-                    new \DateInterval("PT7H")
-                )
-        );
+//        $car = new Car();
+//        $car->setUid('pqrstuv');
+//        $car->setCreatedOn(
+//            (new \DateTime())
+//                ->sub(
+//                    new \DateInterval("PT7H")
+//                )
+//        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('2A');
         $parkingSpace->setCarPark('Round House');
-        $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(0);
+//        $parkingSpace->setCar($car);
+//        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('43042-4898');
         $parkingSpace->setX(0.163142662696165);
         $parkingSpace->setY(2.41772976230547);
@@ -87,20 +87,20 @@ class LoadRoundHouseMappingData implements FixtureInterface
 
     public function addParkingSpace4()
     {
-        $car = new Car();
-        $car->setUid('wxyzabc');
-        $car->setCreatedOn(
-            (new \DateTime())
-                ->sub(
-                    new \DateInterval("PT12H")
-                )
-        );
+//        $car = new Car();
+//        $car->setUid('wxyzabc');
+//        $car->setCreatedOn(
+//            (new \DateTime())
+//                ->sub(
+//                    new \DateInterval("PT12H")
+//                )
+//        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setUid('2D');
         $parkingSpace->setCarPark('Round House');
-        $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(0);
+//        $parkingSpace->setCar($car);
+//        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('63959-62326');
         $parkingSpace->setX(-0.912536392113686);
         $parkingSpace->setY(-0.993263694012384);

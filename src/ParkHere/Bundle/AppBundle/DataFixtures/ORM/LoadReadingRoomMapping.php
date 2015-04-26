@@ -50,20 +50,20 @@ class LoadReadingRoomMappingData implements FixtureInterface
 
     public function addParkingSpace2WithCar()
     {
-        $car = new Car();
-        $car->setUid('abcdefg');
-        $car->setCreatedOn(
-            (new \DateTime())
-                ->sub(
-                    new \DateInterval("PT1H")
-                )
-        );
+//        $car = new Car();
+//        $car->setUid('abcdefg');
+//        $car->setCreatedOn(
+//            (new \DateTime())
+//                ->sub(
+//                    new \DateInterval("PT1H")
+//                )
+//        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1B');
         $parkingSpace->setCarPark('Reading Room');
-        $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(0);
+//        $parkingSpace->setCar($car);
+//        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('12375-52537');
         $parkingSpace->setX(-1.30115592843365);
         $parkingSpace->setY(0.1602604064794);
@@ -74,20 +74,20 @@ class LoadReadingRoomMappingData implements FixtureInterface
 
     public function addParkingSpace3WithCar()
     {
-        $car = new Car();
-        $car->setUid('hijklmno');
-        $car->setCreatedOn(
-            (new \DateTime())
-                ->sub(
-                    new \DateInterval("PT4H")
-                )
-        );
+//        $car = new Car();
+//        $car->setUid('hijklmno');
+//        $car->setCreatedOn(
+//            (new \DateTime())
+//                ->sub(
+//                    new \DateInterval("PT4H")
+//                )
+//        );
 
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1C');
         $parkingSpace->setCarPark('Reading Room');
-        $parkingSpace->setCar($car);
-        $parkingSpace->setAvailable(0);
+//        $parkingSpace->setCar($car);
+//        $parkingSpace->setAvailable(0);
         $parkingSpace->setUid('14194-55068');
         $parkingSpace->setX(-0.698570225339638);
         $parkingSpace->setY(1.77540707972113);
