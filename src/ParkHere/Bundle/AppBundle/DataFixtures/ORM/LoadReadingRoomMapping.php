@@ -40,7 +40,7 @@ class LoadReadingRoomMappingData implements FixtureInterface
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1A');
         $parkingSpace->setCarPark('Reading Room');
-        $parkingSpace->setUid('e669a773c7fc');
+        $parkingSpace->setUid('46433-40474');
         $parkingSpace->setX(-0.162831984522726);
         $parkingSpace->setY(-1.97208331763145);
         $parkingSpace->setOrientation(346.114298502604);
@@ -64,7 +64,7 @@ class LoadReadingRoomMappingData implements FixtureInterface
         $parkingSpace->setCarPark('Reading Room');
         $parkingSpace->setCar($car);
         $parkingSpace->setAvailable(0);
-        $parkingSpace->setUid('d62963a73f2f');
+        $parkingSpace->setUid('12375-52537');
         $parkingSpace->setX(-1.30115592843365);
         $parkingSpace->setY(0.1602604064794);
         $parkingSpace->setOrientation(76.6375495062934);
@@ -88,7 +88,7 @@ class LoadReadingRoomMappingData implements FixtureInterface
         $parkingSpace->setCarPark('Reading Room');
         $parkingSpace->setCar($car);
         $parkingSpace->setAvailable(0);
-        $parkingSpace->setUid('df10d71c3772');
+        $parkingSpace->setUid('14194-55068');
         $parkingSpace->setX(-0.698570225339638);
         $parkingSpace->setY(1.77540707972113);
         $parkingSpace->setOrientation(162.769168429905);
@@ -101,7 +101,7 @@ class LoadReadingRoomMappingData implements FixtureInterface
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('1D');
         $parkingSpace->setCarPark('Reading Room');
-        $parkingSpace->setUid('c5bbcd393057');
+        $parkingSpace->setUid('61787-65074');
         $parkingSpace->setX(0.909436368827841);
         $parkingSpace->setY(0.611016939058266);
         $parkingSpace->setOrientation(251.725128173828);

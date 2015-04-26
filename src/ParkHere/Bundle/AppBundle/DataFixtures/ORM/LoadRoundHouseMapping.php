@@ -51,7 +51,7 @@ class LoadRoundHouseMappingData implements FixtureInterface
         $parkingSpace->setCarPark('Round House');
         $parkingSpace->setCar($car);
         $parkingSpace->setAvailable(0);
-        $parkingSpace->setUid('f9981322a822');
+        $parkingSpace->setUid('43042-4898');
         $parkingSpace->setX(0.163142662696165);
         $parkingSpace->setY(2.41772976230547);
         $parkingSpace->setOrientation(180.654327392578);
@@ -64,7 +64,7 @@ class LoadRoundHouseMappingData implements FixtureInterface
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('2B');
         $parkingSpace->setCarPark('Round House');
-        $parkingSpace->setUid('d97a7459dd10');
+        $parkingSpace->setUid('56592-29785');
         $parkingSpace->setX(1.2629431022081);
         $parkingSpace->setY(0.573864024488673);
         $parkingSpace->setOrientation(267.886882435192);
@@ -77,7 +77,7 @@ class LoadRoundHouseMappingData implements FixtureInterface
         $parkingSpace = new ParkingSpace();
         $parkingSpace->setName('2C');
         $parkingSpace->setCarPark('Round House');
-        $parkingSpace->setUid('fbe5c750068d');
+        $parkingSpace->setUid('1677-51024');
         $parkingSpace->setX(0.9859191893535521);
         $parkingSpace->setY(-2.40721610130067);
         $parkingSpace->setOrientation(-0.942706021395597);
@@ -101,7 +101,7 @@ class LoadRoundHouseMappingData implements FixtureInterface
         $parkingSpace->setCarPark('Round House');
         $parkingSpace->setCar($car);
         $parkingSpace->setAvailable(0);
-        $parkingSpace->setUid('ece4f376f9d7');
+        $parkingSpace->setUid('63959-62326');
         $parkingSpace->setX(-0.912536392113686);
         $parkingSpace->setY(-0.993263694012384);
         $parkingSpace->setOrientation(82.35563243519179);
