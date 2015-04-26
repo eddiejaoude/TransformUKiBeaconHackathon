@@ -17,7 +17,7 @@ Easily park your car.
 # Documentation
 
 1. [Get list of Spaces available by Car park](https://github.com/eddiejaoude/TransformUKiBeaconHackathon/issues/2)
-
+2. [Check into Parking Space](https://github.com/eddiejaoude/TransformUKiBeaconHackathon/issues/1)
 
 ---
 
