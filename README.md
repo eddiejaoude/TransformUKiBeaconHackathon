@@ -6,11 +6,16 @@ TransformUk: http://www.transformuk.com/transform-beacon-sticker-hackathon/
 
 ---
 
-![Beacon Logo](beacon-logo.png)
-
 # TransformUKiBeaconHackathon - Park here
 
 Easily park your car.
+
+iPhone App: https://github.com/AlexandreJacquemot/TransformUKiBeaconHackathoniOSApp
+
+Slides & presentation coming soon.
+
+## Won 2nd prices
+
 
 ---
 
